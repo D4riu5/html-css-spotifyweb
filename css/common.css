@@ -6,9 +6,12 @@
 }
 
 
+
 /* Var START */
 :root{
-
+    --content-color: #141922;
+    --footer-color: #282828;
+    --aside-color: black;
 }
 /* Var END */
 
@@ -31,7 +34,9 @@
 
 
 /* MARGIN-PADDING START */
-
+.padded-in{
+    padding: 20px;
+}
 /* MARGIN-PADDING END */
 
 
@@ -44,3 +49,18 @@
 
 /* BUTTONS END */
 /* UTILITIES END */
+
+
+
+/* ***********DEBUG************ */
+
+.debug{
+    color: white;  
+    
+}
+
+.d-box{
+    background-color: orange;
+    padding: 20px;
+}
+
