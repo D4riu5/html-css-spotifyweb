@@ -65,7 +65,7 @@ aside nav #bordered-link{
 /* ASIDE-NAV-BOTTOM END */
 /*---------- ASIDE END --------*/
 
-/* ----------- CONTENT START ---------- */
+/* ----------- #CONTENT START ---------- */
 #content{
     width: calc(100vw - 220px);
     background-color: var(--content-color);
@@ -141,7 +141,7 @@ aside nav #bordered-link{
     border-radius: 50%;
 }
 /* SECTION 3-ARTISTI PIU POPOLARI END */
-/* ----------- CONTENT END ---------- */
+/* ----------- #CONTENT END ---------- */
 /*--------------- MAIN END ---------------*/
 
 

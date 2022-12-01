@@ -1,49 +1,17 @@
 /*==============BREAK 1 (TABLET) START=================== */
-@media screen and(max-width: 1100px) {
-/*--------------- MAIN START --------------- */
-/* ------- ASIDE START ------ */
-/* ASIDE-NAV-TOP START */
+@media screen and (max-width: 1100px){
 
-/* ASIDE-NAV-TOP END */
+/* ----------- #CONTENT START ---------- */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-/* ASIDE-NAV-BOTTOM START */
-
-/* ASIDE-NAV-BOTTOM END */
-/*---------- ASIDE END --------*/
-
-/* ----------- CONTENT START ---------- */
-
-/* MAIN-HEADER START*/
-
-/* MAIN-HEADER END*/
-
-
-/* MAIN-NAV START */
-
-/* MAIN-NAV END */
-
-
-/* SECTION 1-RECENTLY PLAYED START */
-
-/* SECTION 1-RECENTLY PLAYED END */
-
-
-/* SECTION 2-CREATO PER JOHN DOE START */
-
-/* SECTION 2-CREATO PER JOHN DOE END */
-
-
-/* SECTION 3-ARTISTI PIU POPOLARI START */
-
-/* SECTION 3-ARTISTI PIU POPOLARI END */
-/* ----------- CONTENT END ---------- */
-/*--------------- MAIN END ---------------*/
-
-
-/*--------------- FOOTER START ---------------*/
-
-/*--------------- FOOTER END ---------------*/
+.col{
+    flex: 0 1 calc(100% / 4 - 20px);
+    margin: 0 20px 15px 0;
+}
+/* ----------- #CONTENT END ---------- */
 }
 /*==============BREAK 1 (TABLET) END=================== */
 
@@ -51,7 +19,7 @@
 
 
 /*==============BREAK 2 (MOBILE L) START=============== */
-@media screen and(max-width: 700px) {
+@media screen and (max-width: 700px) {
 /*--------------- MAIN START --------------- */
 /* ------- ASIDE START ------ */
 /* ASIDE-NAV-TOP START */
@@ -104,7 +72,7 @@
 
 
 /*==============BREAK 3 (MOBILE M) START=============== */
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
 /*--------------- MAIN START --------------- */
 /* ------- ASIDE START ------ */
 /* ASIDE-NAV-TOP START */
