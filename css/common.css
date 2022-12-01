@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* general rules */
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    color: white; 
 }
-
-/* Var START */
+/* ------Var START------ */
 :root{
 /* COLORS */
     --content-color: #141922;
@@ -20,7 +20,7 @@ body{
 /* SPACING */
     --elements-spacing: 10px 0;
 }
-/* Var END */
+/* ------Var END------- */
 
 
 /* TEXT START */
@@ -28,7 +28,9 @@ body{
     font-weight: bolder;
 }
 
-
+.small-txt{
+    font-size: 10px;
+}
 
 .slightly-bigger-txt{
     font-size: 14px;
@@ -39,10 +41,9 @@ body{
 /* FONT-AWESOME START */
 .font-awesome-icon{
 margin-right: 10px;
-
 }
-
 /* FONT-AWESOME END */
+
 
 /* ICONS START */
 .icon-svg-small{
@@ -68,7 +69,6 @@ margin-right: 10px;
 /* ICONS END */
 
 
-/* UTILITIES START  */
 /* COLORS START*/
 .white{
     color: white;
@@ -82,7 +82,7 @@ margin-right: 10px;
 }
 
 .padded-in-small{
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .no-padding-bottom{
@@ -98,7 +98,7 @@ margin-right: 10px;
 }
 
 .col{
-    flex: 0 10 calc(100% /6 - 20px);
+    flex: 0 1 calc(100% /6 - 20px);
     margin: 0 20px 15px 0;
 }
 
@@ -118,7 +118,6 @@ button{
     font-size: 12px;
 }
 /* BUTTONS END */
-/* UTILITIES END */
 
 
 

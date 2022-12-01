@@ -140,13 +140,13 @@ aside nav #bordered-link{
 #artists img{
     border-radius: 50%;
 }
-
 /* SECTION 3-ARTISTI PIU POPOLARI END */
 /* ----------- CONTENT END ---------- */
 /*--------------- MAIN END ---------------*/
 
 
 /*--------------- FOOTER START ---------------*/
+/* ------PLAYER (left side) start -------- */
 #player{
     background-color: var(--footer-color);
     height: 80px;
@@ -157,7 +157,131 @@ aside nav #bordered-link{
 #player .wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
+
+.playing{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .img-wrapper{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+footer img{
+    height: 100%;
+    width: 100%;
+}
+
+.playing >div:first-of-type{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.playing >div:last-of-type{
+    display: flex;
+    align-items: center;
+}
+
+.playing h5, .playing a .font-awesome-icon{
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+
+.playing a{
+    margin-right: 5px;
+}
+/* ------PLAYER (left side) end -------- */
+
+
+/* ------CONTROLS (MIDDLE) start -------- */
+.controls{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.controls-top{
+    text-align: center;
+    padding: 10x;
+    
+}
+
+.controls a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.controls-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.controls .progress-bar { 
+    height: 5px;
+    min-width: 100px;
+    width: 85%;
+    position: relative;
+    background: #555;
+    border-radius: 22px;
+    margin: 3px;
+  }
+
+.controls .progress-bar > span{
+    display: block;
+    height: 100%;
+    width: 25%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;  
+    background-color: white;
+}
+
+
+
+/* ------CONTROLS (MIDDLE) end -------- */
+
+
+/* ------AUDIO (right side) start -------- */
+.audio{
+    display: flex;
+}
+
+.audio a{
+    text-decoration: none;
+    color: white;
+}
+
+.audio .progress-bar { 
+    height: 5px;
+    width: 80px;
+    position: relative;
+    background: #555;
+    border-radius: 22px;
+    margin: 3px;
+  }
+
+.audio .progress-bar > span{
+    display: block;
+    height: 100%;
+    width: 25%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;  
+    background-color: white;
+}
+/* ------AUDIO (right side) end -------- */
 /*--------------- FOOTER END ---------------*/
 
 
