@@ -40,7 +40,7 @@ body{
 
 /* FONT-AWESOME START */
 .font-awesome-icon{
-margin-right: 10px;
+    margin-right: 10px;
 }
 /* FONT-AWESOME END */
 
@@ -120,9 +120,7 @@ button{
 /* BUTTONS END */
 
 
-
 /* ***********DEBUG************ */
-
 .debug{
     color: white;  
     border: dashed 1px white;

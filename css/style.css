@@ -71,6 +71,7 @@ aside nav #bordered-link{
 /* ASIDE-NAV-BOTTOM END */
 /*---------- ASIDE END --------*/
 
+
 /* ----------- #CONTENT START ---------- */
 #content{
     width: calc(100vw - 220px);
@@ -215,8 +216,7 @@ footer img{
 
 .controls-top{
     text-align: center;
-    padding: 10x;
-    
+    padding: 10x; 
 }
 
 .controls a{
@@ -251,9 +251,6 @@ footer img{
     border-bottom-left-radius: 20px;  
     background-color: white;
 }
-
-
-
 /* ------CONTROLS (MIDDLE) end -------- */
 
 
