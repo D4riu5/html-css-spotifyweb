@@ -180,7 +180,7 @@ footer img{
 .playing >div:first-of-type{
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .playing >div:last-of-type{
@@ -193,7 +193,6 @@ footer img{
     color: var(--color-white);
 }
 
-
 .playing a{
     margin-right: 5px;
 }
@@ -202,7 +201,7 @@ footer img{
 
 /* ------CONTROLS (MIDDLE) start -------- */
 .controls{
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 10px;
