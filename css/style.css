@@ -1,6 +1,7 @@
 /*--------------- MAIN START --------------- */
 main{
     display: flex;
+    width: 100%;
     height: calc(100vh - 100px);
 }
 /* ------- ASIDE START ------ */
@@ -14,7 +15,17 @@ main > *{
 }
 
 /* ASIDE-NAV-TOP START */
+aside{
+    min-height: 400px;
+}
 
+#nav-top{
+    height: calc(100% - 80px);
+}
+
+#nav-bottom{
+    height: 80px;
+}
 /* ASIDE-NAV-TOP END */
 
 
@@ -27,20 +38,39 @@ main > *{
 #content{
     width: calc(100vw - 250px);
     background-color: var(--content-color);
+    overflow: auto;
 }
 
 /* MAIN-HEADER START*/
-
+#content header{
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--aside-color);
+    opacity: 0.5;
+    text-align: right;
+}
 /* MAIN-HEADER END*/
 
 
 /* MAIN-NAV START */
+#content ul{
+    list-style: none;
+    text-align: center;
+}
 
+#content ul li{
+    display: inline-block;
+}
 /* MAIN-NAV END */
 
 
 /* SECTION 1-RECENTLY PLAYED START */
-
+#recently img{
+    width: 100%;
+    height: 100%;
+}
 /* SECTION 1-RECENTLY PLAYED END */
 
 
