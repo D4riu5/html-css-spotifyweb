@@ -116,6 +116,7 @@ button{
     border-color: white;
     cursor: pointer;
     font-size: 12px;
+    transition: 0.3s;
 }
 /* BUTTONS END */
 
