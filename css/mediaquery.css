@@ -41,48 +41,32 @@
 @media screen and (max-width: 600px) {
 /*--------------- MAIN START --------------- */
 /* ------- ASIDE START ------ */
-/* ASIDE-NAV-TOP START */
+aside{
+    width: 60px;
+}
 
-/* ASIDE-NAV-TOP END */
+aside span,
+aside ul,
+aside h4,
+aside #create-playlist,
+aside .logo-container,
+aside hr{
+    display: none;
+}
 
-
-/* ASIDE-NAV-BOTTOM START */
-
-/* ASIDE-NAV-BOTTOM END */
+#nav-top .logo-container2{
+    display: block;
+}
 /*---------- ASIDE END --------*/
 
+
+/*--------------- MAIN START --------------- */
 /* ----------- CONTENT START ---------- */
-
-/* MAIN-HEADER START*/
-
-/* MAIN-HEADER END*/
-
-
-/* MAIN-NAV START */
-
-/* MAIN-NAV END */
-
-
-/* SECTION 1-RECENTLY PLAYED START */
-
-/* SECTION 1-RECENTLY PLAYED END */
-
-
-/* SECTION 2-CREATO PER JOHN DOE START */
-
-/* SECTION 2-CREATO PER JOHN DOE END */
-
-
-/* SECTION 3-ARTISTI PIU POPOLARI START */
-
-/* SECTION 3-ARTISTI PIU POPOLARI END */
+#content{
+    width: calc(100vw - 60px);
+}
 /* ----------- CONTENT END ---------- */
 /*--------------- MAIN END ---------------*/
-
-
-/*--------------- FOOTER START ---------------*/
-
-/*--------------- FOOTER END ---------------*/
 }
 /*==============BREAK 3 (MOBILE M) END=============== */
     

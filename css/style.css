@@ -28,7 +28,13 @@ aside a{
     margin: var(--elements-spacing);
 }
 
-#nav-top .logo-container img{
+#nav-top .logo-container2{
+    width: 20px;
+    display: none;
+}
+
+#nav-top .logo-container img,
+#nav-top .logo-container2 img{
     width: 100%;
 }
 
