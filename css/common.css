@@ -28,6 +28,8 @@ body{
     font-weight: bolder;
 }
 
+
+
 .slightly-bigger-txt{
     font-size: 14px;
 }
@@ -79,6 +81,13 @@ margin-right: 10px;
     padding: 20px;
 }
 
+.padded-in-small{
+    padding: 10px 20px;
+}
+
+.no-padding-bottom{
+    padding-bottom: 0;
+}
 /* MEASUREMENTS END */
 
 
@@ -89,8 +98,12 @@ margin-right: 10px;
 }
 
 .col{
-    flex: 0 1 calc(100% /6 - 20px);
+    flex: 0 10 calc(100% /6 - 20px);
     margin: 0 20px 15px 0;
+}
+
+.col> h4, .col >h5{
+    text-align: center;
 }
 /* FLEX END */
 
