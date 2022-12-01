@@ -12,6 +12,7 @@
     --content-color: #141922;
     --footer-color: #282828;
     --aside-color: black;
+    --color-white: white;
 }
 /* Var END */
 
@@ -23,21 +24,46 @@
 
 /* FONT-AWESOME START */
 
+
 /* FONT-AWESOME END */
 
+/* ICONS START */
+.icon-svg-small{
+    width: 16px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.icon-svg-big{
+    width: 20px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+#special-svg-profile{
+    background-color: gray;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+/* ICONS END */
 
 
 /* UTILITIES START  */
 /* COLORS START*/
-
+.white{
+    color: var(--color-white);
+}
 /* COLORS END */
 
 
-/* MARGIN-PADDING START */
+/* MEASUREMENTS START */
 .padded-in{
     padding: 20px;
 }
-/* MARGIN-PADDING END */
+/* MEASUREMENTS END */
 
 
 /* FLEX START */
@@ -47,13 +73,21 @@
 }
 
 .col{
-    flex: 1 1 calc(100% /6 - 10px);
-    margin: 0 10px 15px 0;
+    flex: 0 1 calc(100% /6 - 20px);
+    margin: 0 20px 15px 0;
 }
 /* FLEX END */
 
 
 /* BUTTONS START */
+button{
+    padding: 0.6rem 1.5rem;
+    background-color: transparent;
+    border-radius: 22px;
+    border-color: white;
+    cursor: pointer;
+}
+
 
 /* BUTTONS END */
 /* UTILITIES END */
