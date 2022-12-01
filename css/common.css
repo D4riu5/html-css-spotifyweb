@@ -5,38 +5,53 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
 
 /* Var START */
 :root{
+/* COLORS */
     --content-color: #141922;
     --footer-color: #282828;
     --aside-color: black;
-    --color-white: white;
+    --color-white: rgb(185, 185, 185);
+/* SPACING */
+    --elements-spacing: 10px 0;
 }
 /* Var END */
 
 
 /* TEXT START */
+.bold{
+    font-weight: bolder;
+}
 
+.slightly-bigger-txt{
+    font-size: 14px;
+}
 /* TEXT END */
 
 
 /* FONT-AWESOME START */
+.font-awesome-icon{
+margin-right: 10px;
 
+}
 
 /* FONT-AWESOME END */
 
 /* ICONS START */
 .icon-svg-small{
     width: 16px;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 
 .icon-svg-big{
     width: 20px;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 
@@ -46,7 +61,7 @@
     width: 18px;
     border-radius: 50%;
     margin-right: 5px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 /* ICONS END */
 
@@ -54,7 +69,7 @@
 /* UTILITIES START  */
 /* COLORS START*/
 .white{
-    color: var(--color-white);
+    color: white;
 }
 /* COLORS END */
 
@@ -63,6 +78,7 @@
 .padded-in{
     padding: 20px;
 }
+
 /* MEASUREMENTS END */
 
 
@@ -86,9 +102,8 @@ button{
     border-radius: 22px;
     border-color: white;
     cursor: pointer;
+    font-size: 12px;
 }
-
-
 /* BUTTONS END */
 /* UTILITIES END */
 

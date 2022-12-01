@@ -11,28 +11,28 @@
     <!-- fontawesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <!-- font link -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <!-------------------- MAIN START  -------------------->
     <main>
-        <!-------- ASIDE START ---------->
+        <!-------- ASIDE START -------------->
         <aside class="debug padded-in">
             <!--ASIDE-NAV-TOP START -->
             <nav id="nav-top" class="debug">
                 <div class="logo-container">
                     <img src="img/logo.svg" alt="logo">
                 </div>
-                <a href="#nogo"><img class="icon-svg-big" src="img/home.svg" alt="home">Home</a>
+                <a id="bordered-link" class="white bold" href="#nogo"><img class="icon-svg-big" src="img/home.svg" alt="home">
+                    <div id="special-border-v"></div>Home</a>
                 <a href="#nogo"><img class="icon-svg-big" src="img/search.svg" alt="search">Cerca</a>
                 <a href="#nogo"><img class="icon-svg-big" src="img/libreria.svg" alt="library">La tua libreria</a>
-                <h4>Playlist</h4>
-                <a href="#nogo"><i class="fa-solid fa-square-plus"></i>Crea Playlist</a>
+                <h4>PLAYLIST</h4>
+                <a class="slightly-bigger-txt" href="#nogo"><i class="fa-solid fa-square-plus fa-2xl font-awesome-icon"></i>Crea Playlist</a>
                 <ul>
-                    <li><a href="#nogo">Nome playlist</a></li>
-                    <li><a href="#nogo">Nome playlist</a></li>
-                    <li><a href="#nogo">Nome playlist</a></li>
                     <li><a href="#nogo">Nome playlist</a></li>
                     <li><a href="#nogo">Nome playlist</a></li>
                     <li><a href="#nogo">Nome playlist</a></li>
@@ -48,11 +48,11 @@
             <nav id="nav-bottom" class="debug">
                 <a href="#nogo"><img class="icon-svg-small" src="img/download.svg" alt="download">Installa app</a>
                 <hr>
-                <a href="#nogo"><img id="special-svg-profile"src="img/profile.svg" alt="profile"> John Doe</a>
+                <a class="slightly-bigger-txt white bold" href="#nogo"><img id="special-svg-profile"src="img/profile.svg" alt="profile"> John Doe</a>
             </nav>
             <!-- ASIDE-NAV-BOTTOM END -->
         </aside>
-        <!---------- ASIDE END ------------>
+        <!---------- ASIDE END --------------->
 
 
         <!----------- CONTENT START ---------->
@@ -66,12 +66,15 @@
             <!-- MAIN-NAV START -->
             <nav class="padded-in">
                 <ul>
-                    <li><a href="#nogo">Link</a></li>
-                    <li><a href="#nogo">Link</a></li>
-                    <li><a href="#nogo">Link</a></li>
-                    <li><a href="#nogo">Link</a></li>
-                    <li><a href="#nogo">Link</a></li>
-                    <li><a href="#nogo">Link</a></li>
+                    <li><a href="#nogo">
+                        <div id="special-border"></div> IN EVIDENZA</a>
+                    </li>
+                    <li><a href="#nogo">PODCAST</a></li>
+                    <li><a href="#nogo">CLASSIFICHE</a></li>
+                    <li><a href="#nogo">GENERI E MOOD</a></li>
+                    <li><a href="#nogo">NUOVE USCITE</a></li>
+                    <li><a href="#nogo">SCOPRI</a></li>
+                    
                 </ul>
             </nav>
             <!-- MAIN-NAV END -->
