@@ -3,6 +3,7 @@ main{
     display: flex;
     width: 100%;
     height: calc(100vh - 80px);
+    overflow: hidden;
 }
 /* ------- ASIDE START ------ */
 aside{
@@ -18,9 +19,16 @@ aside a{
     margin: var(--elements-spacing);
 }
 
+aside h4{
+    margin: var(--elements-spacing);
+}
+
 /* ASIDE-NAV-TOP START */
 #nav-top{
     height: calc(100% - 80px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 #nav-top .logo-container{
@@ -41,7 +49,6 @@ aside a{
 aside ul{
     overflow: auto;
     background-color: var(--aside-color);
-    height: calc(80vh - 260px);
 }
 
 aside nav #bordered-link{
